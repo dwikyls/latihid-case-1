@@ -1,0 +1,50 @@
+{
+  "content1": [
+    {
+      "icon": "blue-icon1.png",
+      "judul": "Jejaring Bisnis",
+      "deskripsi": "Kesempatan untuk menjangkau 865 pengguna kami",
+      "align": "align-self-center"
+    },
+    {
+      "icon": "blue-icon2.png",
+      "judul": "Insentif",
+      "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam quidem, modi incidunt atque veritatis enim facere, sit voluptatum, a nostrum! Nostrum quasi inventore recusandae omnis",
+      "align": "align-self-start"
+    },
+    {
+      "icon": "blue-icon3.png",
+      "judul": "Pengalaman",
+      "deskripsi": "Berbagai cerita, motivasi dan pengalaman menarik dengan menjadi pembicara pada LatihID Talks maupun PETA",
+      "align": "align-self-center"
+    },
+    {
+      "icon": "blue-icon4.png",
+      "judul": "Sertifikat",
+      "deskripsi": "Dokumentasi sebagai pembicara dalam acara LatihID",
+      "align": "align-self-start"
+    }
+  ],
+  "content2": [
+    {
+      "icon": "ikon1.png",
+      "judul": "Pemateri Modul",
+      "deskripsi": "Individu/Lembaga bermitra sebagai instruktur atau pemateri di LatihID Modul, dengan menyediakan beberapa courses di dalam satu modul pembelajaran"
+    },
+    {
+      "icon": "ikon2.png",
+      "judul": "Pembicara Talks",
+      "deskripsi": "Individu/Lembaga bermitra sebagai instruktur atau pemateri di LatihID Talks, yang membahas topik seputar UMKM melalui webinar live atau tatap muka yang interaktif."
+    },
+    {
+      "icon": "ikon3.png",
+      "judul": "Pembicara PETA",
+      "deskripsi": "Individu/Lembaga bermitra sebagai instruktur atau pemateri di LatihID PETA, yang menceritakan pengalaman tentang UMKM dalam video singkat."
+    },
+    {
+      "icon": "ikon4.png",
+      "judul": "Mitra Lainnya",
+      "deskripsi": "Individu/Lembaga dapat mengajukan berbagai jenis kemitraan lainnya, seperti Media partner."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width: 1000px) {
+  .textcenter {
+    text-align: center;
+    margin: 20px;
+  }
+  .mxauto {
+    margin: auto;
+  }
+}

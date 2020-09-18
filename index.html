@@ -67,8 +67,8 @@
 
         <!-- LOGIN DAN DAFTAR -->
         <div class="form-inline">
-          <a href="" class="btn text-warning">Masuk</a>
-          <a href="" class="btn btn-warning text-white rounded-pill">Daftar</a>
+          <a href="" class="btn" style="color: salmon;">Masuk</a>
+          <a href="" class="btn text-white rounded-pill" style="background-color: salmon;">Daftar</a>
         </div>
       </div>
     </nav>
@@ -88,7 +88,7 @@
             <div class="row mt-5">
               <div class="col">
                 <a href="">Home</a> >
-                <a href="" class="text-danger">Kolaborasi</a>
+                <a href="" style="color: salmon;">Kolaborasi</a>
               </div>
             </div>
 
@@ -162,64 +162,18 @@
         <!-- FORM KOLABORASI -->
         <form>
           <div class="row">
-            <div class="col-md-6">
 
-              <!-- INPUT KERJASAMA -->
-              <div class="form-group">
-                <label for="kerjasama">Kerjasama yang diinginkan
-                  <div style="color: red; display: inline">*</div></label>
-                <input type="text" class="form-control" id="kerjasama" name="kerjasama" />
-              </div>
+            <!-- FORM INPUT BAGIAN KIRI -->
+            <div class="col-md-6" id="form-input1"></div>
 
-              <!-- INPUT NAMA -->
-              <div class="form-group">
-                <label for="nama">Nama
-                  <div style="color: red; display: inline">*</div></label>
-                <input type="text" class="form-control" id="nama" name="nama" />
-              </div>
-
-              <!-- INPUT EMAIL -->
-              <div class="form-group">
-                <label for="email">Email
-                  <div style="color: red; display: inline">*</div></label>
-                <input type="text" class="form-control" id="email" name="email" />
-              </div>
-
-              <!-- INPUT NOMOR TELEPON -->
-              <div class="form-group">
-                <label for="telepon">Nomor Telepon
-                  <div style="color: red; display: inline">*</div></label>
-                <input type="text" class="form-control" id="telepon" name="telepon" />
-              </div>
-            </div>
-
-            <!-- UPLOAD FILE CV -->
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="cv">Upload CV
-                  <div style="color: red; display: inline">*</div></label>
-                <input type="file" class="form-control-file" id="cv" name="cv" />
-              </div>
-
-              <!-- UPLOAD FILE PORTOFOLIO -->
-              <div class="form-group">
-                <label for="portofolio">Upload Portofolio atau Proposal Kerjasama</label>
-                <input type="file" class="form-control-file" id="portofolio" name="portofolio" />
-              </div>
-
-              <!-- INPUT TOPIK -->
-              <div class="form-group">
-                <label for="topik">Topik yang Diajukan
-                  <div style="color: red; display: inline">*</div></label>
-                <input type="text" class="form-control" id="topik" />
-              </div>
-            </div>
+            <!-- FORM INPUT BAGIAN KANAN -->
+            <div class="col-md-6" id="form-input2"></div>
           </div>
           <div class="row">
 
             <!-- TOMBOL SUBMIT FORM KOLABORASI -->
             <div class="col text-center">
-              <button type="submit" class="btn btn-warning text-white rounded-pill">
+              <button type="submit" class="btn text-white rounded-pill" style="background-color: salmon;">
                 Kirim
               </button>
             </div>
@@ -233,11 +187,7 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="p-5">
-    <p class="text-muted text-center p-2">
-      Copyright &copy; 2020 - LatihID. All rights reserved.
-    </p>
-  </footer>
+  <footer></footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
